@@ -27,6 +27,17 @@ helloworld: helloworld.o
 helloworld.o: helloworld.c
 	$(CC) $(CFLAGS) -c helloworld.c
 
+odd_even: odd_even.o
+	$(CC) $(CFLAGS) -o odd_even odd_even.o
+
+odd_even.o: odd_even.c
+	$(CC) $(CFLAGS) -c odd_even.c
+
+read_file: read_file.o
+	$(CC) $(CFLAGS) -o read_file read_file.o
+
+read_file.o: read_file.c
+	$(CC) $(CFLAGS) -c read_file.c
 
 clean:
 	rm -f $(PROGS) *.o *~
