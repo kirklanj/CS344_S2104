@@ -6,6 +6,9 @@ Homework 1
 
 Revision controls systems track and record changes made to documents or programs and keeps records of previous versions. This is useful because it allows you to revert back to previous states especially if the new state is not functioning or if you are trying to find where an error was introduced. In the case of web and user interface designers, if you have a client interested in a commercial app, for example, but they like the formatting of an earlier release, it's easy to access that version.
 
+Revision Control Systems: SVN, GIT, CVS, Mercurial.
+Common commands: commit, add, checkout
+
 3. Describe the difference between redirection and piping on Unix. 10 points. 
 
 Piping passes output to another program or utility while redirect passes output to files and streams.
