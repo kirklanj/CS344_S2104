@@ -1,0 +1,19 @@
+Jennifer Kirkland
+kirklanj@onid.oregonstate.edu
+Homework 1
+
+2. What are Revision Control Systems (sometimes called Version Control Systems)? Why are they useful? Name 4 examples of revision control systems. List 3 common commands for each of the 3 revision control systems you identify. 
+
+Revision controls systems track and record changes made to documents or programs and keeps records of previous versions. This is useful because it allows you to revert back to previous states especially if the new state is not functioning or if you are trying to find where an error was introduced. In the case of web and user interface designers, if you have a client interested in a commercial app, for example, but they like the formatting of an earlier release, it's easy to access that version.
+
+3. Describe the difference between redirection and piping on Unix. 10 points. 
+
+Piping passes output to another program or utility while redirect passes output to files and streams.
+
+4. Give a find command that will run the file command on every regular file (not directories!) within the current file system sub-tree (pwd and down). Run this from within your home directory. HINT: look at the man pages for both find and file. The man page for find is long, but has some really good examples in it, near the end of the man page. The man page for file tells you about “magic tests” and “magic numbers.” Man pages are good. 10 points. 
+
+find . -type f -exec file '{}' ;
+
+5. What is the Unix command make, and how is it useful? 10 points
+
+Make creates executables by building object files from source files and linking to the created object files. It is useful especially when many files need to be compiled to create a single program.
